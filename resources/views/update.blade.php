@@ -15,7 +15,7 @@ crossorigin="anonymous">
 
 
     <h1 style="margin: 50px 50px">Sua user</h1>
-    <form action="{{ route('update'),$id }}" method="POST" style="margin: 50px 50px">
+    <form action="{{ route('update',$id) }}" method="POST" style="margin: 50px 50px">
         @csrf
         
         
